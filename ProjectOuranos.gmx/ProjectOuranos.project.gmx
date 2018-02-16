@@ -8,11 +8,7 @@
   <sprites name="sprites">
     <sprite>sprites\PlayerTest_sp</sprite>
     <sprite>sprites\WallTest_sp</sprite>
-<<<<<<< Updated upstream
-    <sprite>sprites\InventoryBox_sp</sprite>
-=======
     <sprite>sprites\EnemyTest_sp</sprite>
->>>>>>> Stashed changes
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -25,9 +21,6 @@
       <script>scripts\MoveJump.gml</script>
       <script>scripts\PlayerGravity.gml</script>
     </scripts>
-<<<<<<< Updated upstream
-    <script>scripts\ItemGenerationScript.gml</script>
-=======
     <scripts name="EnemyControls">
       <scripts name="SlimeControls">
         <script>scripts\SlimeMain.gml</script>
@@ -36,25 +29,13 @@
         <script>scripts\SlimeAgro.gml</script>
       </scripts>
     </scripts>
->>>>>>> Stashed changes
   </scripts>
   <objects name="objects">
     <object>objects\Wall_ob</object>
     <object>objects\Player_ob</object>
-<<<<<<< Updated upstream
-    <object>objects\Inventory_ob</object>
-    <objects name="Items">
-      <object>objects\Item_ob</object>
-      <objects name="Weapons">
-        <object>objects\Weapon_ob</object>
-        <object>objects\Sword_ob</object>
-        <object>objects\Bow_ob</object>
-      </objects>
-=======
     <objects name="Enemy Objects">
       <object>objects\EnemyParent_ob</object>
       <object>objects\EnemySlime_ob</object>
->>>>>>> Stashed changes
     </objects>
   </objects>
   <rooms name="rooms">
