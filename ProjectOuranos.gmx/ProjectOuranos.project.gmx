@@ -5,9 +5,29 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\PlayerTest_sp</sprite>
+    <sprite>sprites\WallTest_sp</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <scripts name="PlayerControls">
+      <script>scripts\PlayerControlsScriptKeyboard.gml</script>
+      <script>scripts\MoveRight.gml</script>
+      <script>scripts\MoveLeft.gml</script>
+      <script>scripts\MoveStop.gml</script>
+      <script>scripts\MoveJump.gml</script>
+      <script>scripts\PlayerGravity.gml</script>
+    </scripts>
+  </scripts>
+  <objects name="objects">
+    <object>objects\Wall_ob</object>
+    <object>objects\Player_ob</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\TestRoom1_rm</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
