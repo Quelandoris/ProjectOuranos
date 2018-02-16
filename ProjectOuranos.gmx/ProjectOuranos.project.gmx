@@ -7,6 +7,7 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\PlayerTest_sp</sprite>
+    <sprite>sprites\InventoryBox_sp</sprite>
     <sprite>sprites\WallTest_sp</sprite>
     <sprite>sprites\EnemyTest_sp</sprite>
   </sprites>
@@ -26,16 +27,26 @@
         <script>scripts\SlimeMain.gml</script>
         <script>scripts\SlimePassive.gml</script>
         <script>scripts\SlimeDead.gml</script>
-        <script>scripts\SlimeAgro.gml</script>
+        <script>scripts\&lt;undefined&gt;.gml</script>
       </scripts>
     </scripts>
+    <script>scripts\ItemGenerationScript.gml</script>
   </scripts>
   <objects name="objects">
+    <object>objects\Inventory_ob</object>
     <object>objects\Wall_ob</object>
     <object>objects\Player_ob</object>
     <objects name="Enemy Objects">
       <object>objects\EnemyParent_ob</object>
       <object>objects\EnemySlime_ob</object>
+    </objects>
+    <objects name="Items">
+      <object>objects\Item_ob</object>
+      <objects name="Weapons">
+        <object>objects\Weapon_ob</object>
+        <object>objects\Sword_ob</object>
+        <object>objects\Bow_ob</object>
+      </objects>
     </objects>
   </objects>
   <rooms name="rooms">

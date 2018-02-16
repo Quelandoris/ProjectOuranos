@@ -14,4 +14,3 @@ MaxILvl=argument1; //Max Item Level for the script to generate. this will be bas
 IsBoss=argument2; //If a boss is the one dropping an item, it should always generate something at its Max allowable Level, so that its a nice reward
 
 //If the item is being dropped by a boss, generate the item at its max level possible.
-
