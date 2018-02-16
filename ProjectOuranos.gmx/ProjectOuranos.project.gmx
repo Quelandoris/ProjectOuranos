@@ -8,6 +8,7 @@
   <sprites name="sprites">
     <sprite>sprites\PlayerTest_sp</sprite>
     <sprite>sprites\WallTest_sp</sprite>
+    <sprite>sprites\InventoryBox_sp</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -20,10 +21,20 @@
       <script>scripts\MoveJump.gml</script>
       <script>scripts\PlayerGravity.gml</script>
     </scripts>
+    <script>scripts\ItemGenerationScript.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\Wall_ob</object>
     <object>objects\Player_ob</object>
+    <object>objects\Inventory_ob</object>
+    <objects name="Items">
+      <object>objects\Item_ob</object>
+      <objects name="Weapons">
+        <object>objects\Weapon_ob</object>
+        <object>objects\Sword_ob</object>
+        <object>objects\Bow_ob</object>
+      </objects>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\TestRoom1_rm</room>
